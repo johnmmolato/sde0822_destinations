@@ -1,0 +1,20 @@
+#green_box{
+border: solid 5px green;
+height: 100px;
+}
+#red_box{
+border: solid 5px red;
+height: 500px;
+}
+#blue_box{
+border: solid 5px blue;
+height: 500px;
+}
+#purple_box{
+border: solid 5px purple;
+height: 20px;
+}
+#yellow_box{
+border: solid 5px yellow;
+height: 400px;
+}
