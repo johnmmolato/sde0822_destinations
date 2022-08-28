@@ -1,20 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+#container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,30fr);
+
+}
 #green_box{
 border: solid 5px green;
-height: 100px;
+height: 200px;
+padding: 50px;
 }
 #red_box{
 border: solid 5px red;
-height: 500px;
+margin-top: 50px;
+margin-left: auto;
+height: 600px;
+width: 600px;
 }
 #blue_box{
+display: grid;
 border: solid 5px blue;
-height: 500px;
+margin-top: 50px;
+margin-right: auto;
+height: 600px;
+width: 600px;
 }
 #purple_box{
 border: solid 5px purple;
-height: 20px;
+margin: auto;
+height: 50px;
+width: 550px;
+padding-left: 20px;
 }
 #yellow_box{
 border: solid 5px yellow;
-height: 400px;
+margin: auto;
+height: 475px;
+width: 550px;
 }
