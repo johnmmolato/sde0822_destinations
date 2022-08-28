@@ -30,8 +30,59 @@
         to add them to your wishlist
       </h5>
     </header>
+
     <section id="container">
-      <div id="red_box"></div>
+      <div id="red_box">
+        <form>
+          <fieldset>
+            <div id="form">
+              <div class="mb-3">
+                <label class="form-label">Destination name</label>
+                <input
+                  type="text"
+                  id="destinationTextInput"
+                  class="form-control"
+                  placeholder="Enter the name of the destination"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Location</label>
+                <input
+                  type="text"
+                  id="locationInput"
+                  class="form-control"
+                  placeholder="Where is it located"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Photo</label>
+                <input
+                  type="url"
+                  id="urlPhotoInput"
+                  class="form-control"
+                  placeholder="Enter an image url of the place"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Description</label>
+                <textarea
+                  class="form-control"
+                  id="descriptionTextArea"
+                  rows="2"
+                  placeholder="Where is it located"
+                ></textarea>
+              </div>
+
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">
+                  Add to list
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
       <div id="blue_box">
         <header class="h5" id="purple_box">Enter destination details</header>
         <div id="yellow_box"></div>
